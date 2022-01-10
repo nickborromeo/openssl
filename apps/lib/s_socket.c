@@ -17,6 +17,7 @@
 
 /*
  * With IPv6, it looks like Digital has mixed up the proper order of
+ * this is a sample change
  * recursive header file inclusion, resulting in the compiler complaining
  * that u_int isn't defined, but only if _POSIX_C_SOURCE is defined, which is
  * needed to have fileno() declared correctly...  So let's define u_int
